@@ -7,27 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            background: url('image.png'); /* Placeholder for your uploaded image */
+            background: url('image.png'); /* Ensure this path points to your background image */
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            animation: loomEffect 10s infinite alternate;
+            /* Removed the animation property to eliminate the looming effect */
         }
 
-        @keyframes loomEffect {
-            0% {
-                transform: scale(1);
-                filter: brightness(1);
-            }
-            50% {
-                transform: scale(1.05);
-                filter: brightness(1.2);
-            }
-            100% {
-                transform: scale(1);
-                filter: brightness(1);
-            }
-        }
+        /* Removed the @keyframes loomEffect section */
 
         header {
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -138,4 +125,6 @@
         <p>&copy; 2024 Siddhanth Verma. All rights reserved.</p>
     </footer>
 </body>
-</html>
+</html
+::contentReference[oaicite:0]{index=0}
+ 
